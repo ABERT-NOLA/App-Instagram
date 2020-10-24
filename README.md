@@ -23,7 +23,7 @@ Instagram Clone  is a web application that resembles Instagram a user can;
 
 To run the application:-
 
-Clone the repository to a folder in your machine using https://github.com/joanwanjiku/instaclone.git
+Clone the repository to a folder in your machine using https://github.com/ABERT-NOLA/App-Instagram.git
 
 Cd to that folder.
 
@@ -58,11 +58,12 @@ sqlparse==0.3.1
 Bootstrap ==4.0.0
 ```
 ## Contact info
-* For any information queries or comments you can email me:
+For any information queries or comments you can email me:
  email: nyambegaobwoge@yahoo.com
 
 ### License
 
 MIT license
+
 Copyright (c) 2020 
 **Albert Obwoge**

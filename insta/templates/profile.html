@@ -1,0 +1,41 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<div class="profile_page">
+    <div class="media">
+        {% if profile.picture %}
+        <div>
+            <img class="rounded-circle account-img" src="{{ profile.picture.url }}" alt=""> {% endif %}
+        </div>
+        <div class="media-body">
+            <div class="account-heading">
+                <h2>{{ profile.user }}</h2>
+                {% if user.is_authenticated and user == profile.user %}
+                <button type="button"><a href="{% url 'edit-profile' profile.user %}">Edit profile</a></button> {% endif %}
+                <button><i class="fas fa-cog"></i></button>
+            </div>
+            <div class="profile_media">
+                <span class="post_count"> <span class="number_of_posts">{{ posts_count }}</span> posts </span>
+                <a href=""> <span class="number_of_followers"> {{ followers_count }}</span> followers</a>
+                <a href=""> <span class="number_of_follows"> {{ following_count }} </span> follows</a>
+            </div>
+            <div class="bio_content">
+                <p class="profilename">{% if profile.profile_info %}{{ profile.profile_info }}{% endif %} </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="profile_options">
+        <button type="button"><i class="far fa-calendar-alt"></i> POSTS</button>
+        <a href=""><button type="button"><i class="far fa-plus-square"></i> NEW</button></a>
+        <a href=""><button type="button"><i class="far fa-bookmark"></i> SAVED</button></a>
+    </div>
+    <div class="profile_posts">
+        {% for post in posts %}
+        <a href="" class="post_overlay">
+            <i class="far fa-heart hide"></i>
+            <i class="far fa-comment hide"></i>
+            <img src="{{ post.picture.url }}" alt="">
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

@@ -1,4 +1,4 @@
-# App-Instagram 
+## App-Instagram 
 App-Instagram is a clone of Instagram, it allows users to create and update profiles, users can post new posts, comment and like posts.
 
 ## Author
@@ -61,8 +61,8 @@ Bootstrap ==4.0.0
 * For any information queries or comments you can email me:
  email: nyambegaobwoge@yahoo.com
 
-### [License](LICENSE)
-MIT license
+### License
 
+MIT license
 Copyright (c) 2020 
 **Albert Obwoge**

@@ -9,6 +9,7 @@ Python, Django, JavaScript, CSS and HTML
 VS Code.
 
 #### Link to live page
+ click https://instac22.herokuapp.com/user/login/?next=/ to visit website
 
 ## Description
 Instagram Clone  is a web application that resembles Instagram a user can;

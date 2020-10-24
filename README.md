@@ -1,6 +1,5 @@
-# INSTAGRAM CLONE  
-
-Basic Instagram clone website built in django web framework using Python.
+# App-Instagram 
+App-Instagram is a clone of Instagram, it allows users to create and update profiles, users can post new posts, comment and like posts.
 
 ## By Albert Obwoge
 

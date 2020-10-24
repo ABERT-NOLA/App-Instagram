@@ -3,8 +3,8 @@ App-Instagram is a clone of Instagram, it allows users to create and update prof
 
 ## Author
 By Albert Obwoge
-## Technologies Used
 
+## Technologies Used
 Python, Django, JavaScript, CSS and HTML
 VS Code.
 
@@ -17,7 +17,6 @@ Instagram Clone  is a web application that resembles Instagram a user can;
    3. See their profile with all my pictures.
    4. Follow other users and see their pictures on their timeline.
    5. Like a picture and leave a comment on it.
-]
 
 ## Setup Installation
 

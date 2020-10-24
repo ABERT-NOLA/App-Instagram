@@ -1,11 +1,10 @@
 # App-Instagram 
 App-Instagram is a clone of Instagram, it allows users to create and update profiles, users can post new posts, comment and like posts.
 
-## By Albert Obwoge
+## Author
+By Albert Obwoge
 
 #### Link to live page
-  []
-
 ## Description
 Instagram Clone  is a web application that resembles Instagram a user can;
    1. Sign in to the application to start using.

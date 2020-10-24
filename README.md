@@ -9,6 +9,7 @@ Python, Django, JavaScript, CSS and HTML
 VS Code.
 
 #### Link to live page
+
 ## Description
 Instagram Clone  is a web application that resembles Instagram a user can;
    1. Sign in to the application to start using.
@@ -18,21 +19,25 @@ Instagram Clone  is a web application that resembles Instagram a user can;
    5. Like a picture and leave a comment on it.
 ]
 
-## Getting Started
+## Setup Installation
 
-To get a copy of the project up and running on your local machine for development and testing purposes, 
-1. **clone** this repository 
-   ``` 
-   git clone https://github.com/ABERT-NOLA/App-Instagram
-   ```
-2. Set up a Python development environment that includes; Python, **pip** & **a virtual environment** 
-   ```bash
-   $ python3.6 -m venv --without-pip virtual
+To run the application:-
 
-   $ source virtual/bin/activate
+Clone the repository to a folder in your machine using https://github.com/joanwanjiku/instaclone.git
 
-   (virtual) $ curl https://bootstrap.pypa.io/get-pip.py | python
-   ```
+Cd to that folder.
+
+Create a virtual environment using python3 -m venv virtual
+
+Activate the virtual environment using source virtual/bin/activate
+
+Install all the django packages in 'requirements.txt' using pip install <package-name>.
+
+Run:-
+
+python3 manage.py makemigrations images- Creates a migrations folder and database with all the tables
+python3 manage.py migrate
+
 ### Prerequisites
 
 You can install the Prerequisites by running the command: 

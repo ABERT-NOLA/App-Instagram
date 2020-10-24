@@ -37,7 +37,8 @@ Run:-
 
 python3 manage.py makemigrations images- Creates a migrations folder and database with all the tables
 python3 manage.py migrate
-
+Open the project on your Text Editor/IDE
+Run python3 manage.py runserver on your terminal
 ### Prerequisites
 
 You can install the Prerequisites by running the command: 

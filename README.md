@@ -39,6 +39,7 @@ python3 manage.py makemigrations images- Creates a migrations folder and databas
 python3 manage.py migrate
 Open the project on your Text Editor/IDE
 Run python3 manage.py runserver on your terminal
+
 ### Prerequisites
 
 You can install the Prerequisites by running the command: 
@@ -56,17 +57,9 @@ pytz==2020.1
 sqlparse==0.3.1
 Bootstrap ==4.0.0
 ```
-
-## Built With
-
-* [Bootstrap](https://getbootstrap.com/) - MDB is a free, open source CSS framework based on Flexbox
-* [Django](https://www.djangoproject.com/) - Web framework
-* [Python](https://www.python.org/) - Programming Language
-* [HTML](https://www.w3schools.com/html/html_intro.asp) - Markup language for creating Web pages
-
 ## Contact info
-* For any information queries or comments you can email me at
- [email](Albert Obwoge)
+* For any information queries or comments you can email me:
+ email: nyambegaobwoge@yahoo.com
 
 ### [License](LICENSE)
 MIT license
